@@ -72,5 +72,5 @@ app.post('/login', async (req, res) => {
 
 
 server.listen(5500, function(){
-    console.log("server is listening on port: ${port}");
+    console.log("server is listening on port: 5500");
 });
