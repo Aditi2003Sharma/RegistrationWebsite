@@ -70,7 +70,8 @@ app.post('/login', async (req, res) => {
     }
 });
 
+let port = process.env.PORT || 5500;
 
-server.listen(5500, function(){
+server.listen(port, function(){
     console.log("server is listening on port: ${port}");
 });
